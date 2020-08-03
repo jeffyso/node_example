@@ -11,6 +11,16 @@
 // console.log(obj2);0
 
 
-const multiply5 = (num = 5) => num*5
+// const multiply5 = (num = 5) => num*5
 
-console.log(multiply5());
+// console.log(multiply5());
+
+// someFunc("name",1,2,3,4,5)
+// someFunc("name",1,2,3)
+// someFunc("name",1,2)
+
+function somefunction(name ,callback =() => underfined){
+    if(typeof callback !== "function") return
+
+    const 
+}
